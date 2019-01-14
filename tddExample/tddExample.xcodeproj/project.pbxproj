@@ -13,6 +13,8 @@
 		74B73EAF21ED292C001AD429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B73EAE21ED292C001AD429 /* Assets.xcassets */; };
 		74B73EB221ED292C001AD429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B73EB021ED292C001AD429 /* LaunchScreen.storyboard */; };
 		74B73EBD21ED292C001AD429 /* tddExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B73EBC21ED292C001AD429 /* tddExampleTests.swift */; };
+		74B73ED621ED31A7001AD429 /* ConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B73ED521ED31A7001AD429 /* ConnectionTests.swift */; };
+		74B73ED821ED32FE001AD429 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B73ED721ED32FE001AD429 /* Connection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		74B73EB821ED292C001AD429 /* tddExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tddExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B73EBC21ED292C001AD429 /* tddExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tddExampleTests.swift; sourceTree = "<group>"; };
 		74B73EBE21ED292C001AD429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B73ED521ED31A7001AD429 /* ConnectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionTests.swift; sourceTree = "<group>"; };
+		74B73ED721ED32FE001AD429 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +82,12 @@
 			isa = PBXGroup;
 			children = (
 				74B73EA721ED292A001AD429 /* AppDelegate.swift */,
+				74B73EC721ED2C7A001AD429 /* Resources */,
+				74B73EC821ED2C91001AD429 /* Model */,
+				74B73EC921ED2C97001AD429 /* View */,
+				74B73ECA21ED2C9D001AD429 /* ViewModel */,
 				74B73EA921ED292A001AD429 /* ViewController.swift */,
 				74B73EAB21ED292A001AD429 /* Main.storyboard */,
-				74B73EAE21ED292C001AD429 /* Assets.xcassets */,
 				74B73EB021ED292C001AD429 /* LaunchScreen.storyboard */,
 				74B73EB321ED292C001AD429 /* Info.plist */,
 			);
@@ -92,8 +99,39 @@
 			children = (
 				74B73EBC21ED292C001AD429 /* tddExampleTests.swift */,
 				74B73EBE21ED292C001AD429 /* Info.plist */,
+				74B73ED521ED31A7001AD429 /* ConnectionTests.swift */,
 			);
 			path = tddExampleTests;
+			sourceTree = "<group>";
+		};
+		74B73EC721ED2C7A001AD429 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74B73EAE21ED292C001AD429 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		74B73EC821ED2C91001AD429 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74B73ED721ED32FE001AD429 /* Connection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74B73EC921ED2C97001AD429 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74B73ECA21ED2C9D001AD429 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74B73EAA21ED292A001AD429 /* ViewController.swift in Sources */,
+				74B73ED821ED32FE001AD429 /* Connection.swift in Sources */,
 				74B73EA821ED292A001AD429 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74B73EBD21ED292C001AD429 /* tddExampleTests.swift in Sources */,
+				74B73ED621ED31A7001AD429 /* ConnectionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
