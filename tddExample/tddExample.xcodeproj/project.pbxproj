@@ -15,6 +15,8 @@
 		74B73EBD21ED292C001AD429 /* tddExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B73EBC21ED292C001AD429 /* tddExampleTests.swift */; };
 		74B73ED621ED31A7001AD429 /* ConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B73ED521ED31A7001AD429 /* ConnectionTests.swift */; };
 		74B73ED821ED32FE001AD429 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B73ED721ED32FE001AD429 /* Connection.swift */; };
+		74B73EDA21EE7AD9001AD429 /* ConnectionCellDataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B73ED921EE7AD9001AD429 /* ConnectionCellDataModelTests.swift */; };
+		74B73EDE21EE7CAD001AD429 /* ConnectionCellDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B73EDD21EE7CAD001AD429 /* ConnectionCellDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		74B73EBE21ED292C001AD429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74B73ED521ED31A7001AD429 /* ConnectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionTests.swift; sourceTree = "<group>"; };
 		74B73ED721ED32FE001AD429 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		74B73ED921EE7AD9001AD429 /* ConnectionCellDataModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionCellDataModelTests.swift; sourceTree = "<group>"; };
+		74B73EDD21EE7CAD001AD429 /* ConnectionCellDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionCellDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 				74B73EBC21ED292C001AD429 /* tddExampleTests.swift */,
 				74B73EBE21ED292C001AD429 /* Info.plist */,
 				74B73ED521ED31A7001AD429 /* ConnectionTests.swift */,
+				74B73ED921EE7AD9001AD429 /* ConnectionCellDataModelTests.swift */,
 			);
 			path = tddExampleTests;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				74B73ED721ED32FE001AD429 /* Connection.swift */,
+				74B73EDD21EE7CAD001AD429 /* ConnectionCellDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 				74B73EAA21ED292A001AD429 /* ViewController.swift in Sources */,
 				74B73ED821ED32FE001AD429 /* Connection.swift in Sources */,
 				74B73EA821ED292A001AD429 /* AppDelegate.swift in Sources */,
+				74B73EDE21EE7CAD001AD429 /* ConnectionCellDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74B73EBD21ED292C001AD429 /* tddExampleTests.swift in Sources */,
+				74B73EDA21EE7AD9001AD429 /* ConnectionCellDataModelTests.swift in Sources */,
 				74B73ED621ED31A7001AD429 /* ConnectionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
